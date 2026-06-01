@@ -271,13 +271,11 @@ Several tests were conducted to ensure reliable performance:
 
 ---
 
-## 🎬 Video Demonstrations
+## Video Demonstrations
 
-| Challenge | Description |
-|-----------|-------------|
-| 🎥 Open Challenge | 3-lap autonomous wall-following run |
-| 🎥 Obstacle Challenge | Full obstacle avoidance with pillar detection |
-
-> Video files available in [`videos/`](videos/)
+| Challenge | Description | File |
+|-----------|-------------|------|
+| Open Challenge | 3-lap autonomous wall-following | [`videos/Open_Challenge.mp4`](videos/) |
+| Obstacle Challenge | Full pillar detection + avoidance | [`videos/Obstacle_Challenge.mp4`](videos/) |
 
 ---
