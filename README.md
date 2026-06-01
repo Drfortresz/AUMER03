@@ -108,3 +108,20 @@ LiPo 7.4V ──→ Cytron MD13S  (motor power)
           └──→ Arduino Vin   (logic power)
                   └──→ 5V pin ──→ Servo + HC-SR04 (×2) + Pixy2
 ```
+
+**Wiring Summary:**
+
+| Component | Pin Connection |
+|-----------|---------------|
+| HC-SR04 Left | TRIG → D4 · ECHO → D5 · VCC → 5V |
+| HC-SR04 Right | TRIG → D2 · ECHO → D9 · VCC → 5V |
+| Servo | SIG → A0 · VCC → 5V |
+| Cytron MD13S | PWM → D3 · DIR → D8 |
+| Pixy2 (SPI) | CS → D10 · MOSI → D11 · MISO → D12 · SCK → D13 |
+
+<div align="center">
+<img width="512" src="https://github.com/user-attachments/assets/b750eb5a-1c5d-4c75-9160-fdc2dd91ea35" alt="Lab Tools"/>
+<br/><sub><i>Tools and equipment used in development</i></sub>
+</div>
+
+---
