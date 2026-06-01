@@ -4,7 +4,7 @@
        alt="Redcore Logo" width="512" height="512" />
 </p>
 
-# ✨redcores/WRO future engineer 2026
+# ✨redcores/WRO future engineer 2026✨
 
 
 **Kuwait National Qualifier · May 31, 2026**
