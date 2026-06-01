@@ -125,3 +125,49 @@ LiPo 7.4V ──→ Cytron MD13S  (motor power)
 </div>
 
 ---
+
+## 💻 Software Description
+
+The Arduino Uno is programmed using **Arduino IDE** with code written in C/C++. The code architecture is divided into two main modules:
+
+- **`Open_Challenge.ino`** — PD wall-following controller with anti-zigzag techniques
+- **`Obstacle_Challenge.ino`** — PD wall-following + Pixy2 vision mode switching
+
+Both sketches share the same core PD logic and tuned parameters, with the Obstacle Challenge adding a hysteresis-based mode manager for pillar detection.
+
+### Control Flow Diagram
+
+```
+[HC-SR04 L/R] ──→ [3× Average + LPF] ──→ ┐
+                                           ├──→ [Mode Manager] ──→ [PD / Pixy2] ──→ [Servo A0]
+[Pixy2 Camera] ──→ [Area + X Filter]  ──→ ┘                                              │
+                                                                                           ↓
+                                                                                  [Cytron MD13S]
+                                                                                           │
+                                                                                      [DC Motor]
+```
+
+### Tuned Parameters
+
+| Parameter | Value | Role |
+|-----------|-------|------|
+| `KP` | 0.10 | Proportional gain |
+| `KD` | 0.09 | Derivative gain |
+| `MOTOR_SPEED` | 55 | Normal cruising PWM |
+| `TURN_SPEED` | 45 | Reduced PWM on sharp turns |
+| `CENTER_ANGLE` | 90° | Servo straight-ahead |
+| `ERROR_DEADBAND` | 0.8 cm | Noise suppression threshold |
+| `DERIV_ALPHA` | 0.45 | Derivative low-pass filter |
+| `SERVO_ALPHA` | 0.55 | Servo output smoother |
+| `MAX_VALID_CM` | 75 cm | Corner spike clamp value |
+| `HARD_TURN_DEG` | 28° | Speed-reduction trigger |
+
+---
+
+## 🚗 Mobility, Power & Sensing System
+
+The robot's mobility relies on a single DC motor controlled through the **Cytron MD13S** driver, providing smooth forward motion. A **7.4V LiPo battery** powers all components efficiently through the Arduino's onboard regulator.
+
+**Wall-following PD Controller:**
+
+```
