@@ -270,3 +270,14 @@ Several tests were conducted to ensure reliable performance:
 | Mode switching | Clean PID↔Pixy transitions with no oscillation ✅ |
 
 ---
+
+## 🎬 Video Demonstrations
+
+| Challenge | Description |
+|-----------|-------------|
+| 🎥 Open Challenge | 3-lap autonomous wall-following run |
+| 🎥 Obstacle Challenge | Full obstacle avoidance with pillar detection |
+
+> Video files available in [`videos/`](videos/)
+
+---
