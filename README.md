@@ -100,3 +100,11 @@ WRO-Future-Engineers-2026/
 </div>
 
 ---
+
+## ⚡ Power & Electrical System
+
+```
+LiPo 7.4V ──→ Cytron MD13S  (motor power)
+          └──→ Arduino Vin   (logic power)
+                  └──→ 5V pin ──→ Servo + HC-SR04 (×2) + Pixy2
+```
