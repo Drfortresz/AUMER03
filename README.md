@@ -295,7 +295,7 @@ The robot chassis is based on the WLtoys 284010 (1:28 scale RC car), modified wi
 
 <div align="center">
 
-**redcores — Digital Innovations**
+**redcores**
 
 *Kuwait · WRO Future Engineers 2026*
 
