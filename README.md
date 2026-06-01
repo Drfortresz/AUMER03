@@ -243,3 +243,18 @@ The robot chassis is based on the WLtoys 284010 (1:28 scale RC car), modified wi
 </div>
 
 ---
+
+## 🧪 Testing & Calibration
+
+Several tests were conducted to ensure reliable performance:
+
+- **Ultrasonic calibration** — verified accuracy against known wall distances, tuned MAX_VALID_CM
+- **Servo center calibration** — found true CENTER_ANGLE for straight-line driving
+- **Motor dead zone test** — found minimum effective PWM value
+- **PD on-track tuning** — iterative KP/KD field calibration for smooth wall-following
+- **Pixy2 color training** — trained red & green signatures under actual arena lighting conditions
+- **Anti-zigzag validation** — tuned DERIV_ALPHA and SERVO_ALPHA to eliminate oscillation
+- **Full 3-lap run** — validated Open Challenge completion
+- **Obstacle avoidance** — tested all pillar color/position combinations
+
+---
