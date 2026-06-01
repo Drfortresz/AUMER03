@@ -284,11 +284,11 @@ Several tests were conducted to ensure reliable performance:
 
 <div align="center">
 
-| Name | Role |
-|------|------|
-| **Mohammad Abdul Hakim A I** | Hardware design · System integration |
-| **Mohammad Omar Mohammad** | Software development · PD controller |
-| **Mohammad** | Vision system · Testing & calibration |
+| Member | Focus Area | Key Responsibilities |
+|--------|------------|-----------------------|
+| **Mohammad Abdul Hakim A I** | Software & Coding | Writing control code · System logic |
+| **Mohammad Omar Mohammad** | Hardware & Building | Mechanical design · Assembly & integration |
+| **Mohamed Amine Ladraa** | Vision & Testing | Camera vision · Calibration & performance checks |
 
 </div>
 
