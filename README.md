@@ -93,3 +93,10 @@ WRO-Future-Engineers-2026/
 **Physical Specs:**  
 📐 Dimensions: ~17 × 9 × 7 cm — within WRO 30×20×30 cm limit ✅  
 ⚖️ Mass: ~0.5 kg (without electronics) — within 1.5 kg limit ✅
+
+<div align="center">
+<img width="512" src="https://github.com/user-attachments/assets/b178bf55-6c87-4521-a2f3-9c944bf2b491" alt="Robot Components"/>
+<br/><sub><i>Robot components layout</i></sub>
+</div>
+
+---
