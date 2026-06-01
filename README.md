@@ -8,3 +8,8 @@
 
 
 **Kuwait National Qualifier · May 31, 2026**
+
+![Arduino](https://img.shields.io/badge/Arduino-Uno-00979D?style=plastic&logo=arduino&logoColor=white)
+![Platform](https://img.shields.io/badge/Platform-C%2FC%2B%2B-00599C?style=plastic&logo=c%2B%2B&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Competition%20Ready-brightgreen?style=plastic)
+![WRO](https://img.shields.io/badge/WRO-Future%20Engineers-0057A8?style=plastic)
