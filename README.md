@@ -171,3 +171,8 @@ The robot's mobility relies on a single DC motor controlled through the **Cytron
 **Wall-following PD Controller:**
 
 ```
+error      = leftDist − rightDist
+derivative = smoothed(error − lastError)
+output     = KP × error + KD × derivative
+servoAngle = CENTER_ANGLE + output
+```
