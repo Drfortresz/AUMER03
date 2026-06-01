@@ -279,3 +279,25 @@ Several tests were conducted to ensure reliable performance:
 | Obstacle Challenge | Full pillar detection + avoidance | [`videos/Obstacle_Challenge.mp4`](videos/) |
 
 ---
+
+## Team
+
+<div align="center">
+
+| Name | Role |
+|------|------|
+| **Mohammad Abdul Hakim A I** | Hardware design · System integration |
+| **Mohammad Omar Mohammad** | Software development · PD controller |
+| **Mohammad** | Vision system · Testing & calibration |
+
+</div>
+
+---
+
+<div align="center">
+
+**redco — Digital Innovations**
+
+*Kuwait · WRO Future Engineers 2026*
+
+</div>
