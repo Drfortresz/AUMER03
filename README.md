@@ -55,3 +55,41 @@ Three ultrasonic sensors continuously measure distances to walls and obstacles, 
 By fusing ultrasonic data with PixyCam vision, the robot interprets traffic signs, maintains lane balance, avoids collisions, and completes its run by autonomously parking in the designated zone.
 
 Together, these subsystems demonstrate a holistic approach to autonomous mobility, combining dependable sensing, efficient power management, and intelligent control strategies to operate safely in dynamic environments.
+
+---
+
+## 📁 Repository Structure
+
+```
+WRO-Future-Engineers-2026/
+├── README.md
+├── src/
+│   ├── Open_Challenge/
+│   │   └── Open_Challenge.ino       ← PD wall-following controller
+│   └── Obstacle_Challenge/
+│       └── Obstacle_Challenge.ino   ← PD + Pixy2 obstacle avoidance
+├── Vehicle_Photos/                   ← 6-angle robot photography
+├── Models/                           ← 3D design files (.3mf)
+├── Schemes/                          ← Electrical schematic & wiring
+├── videos/                           ← Demo video links
+└── docs/                             ← Team logo & assets
+```
+
+---
+
+## 🔩 Hardware & Components
+
+| Component | Model / Spec | Purpose |
+|-----------|-------------|---------|
+| Microcontroller | Arduino Uno (ATmega328P, 16MHz) | Main logic, sensor reading & control |
+| Motor Driver | Cytron MD13S | DC motor speed & direction control |
+| Drive Motor | Brushed DC 7.4V | Rear-wheel propulsion (RWD) |
+| Steering Servo | Standard servo motor | Front Ackermann steering |
+| Distance Sensors | 2× HC-SR04 ultrasonic | Left/right wall distance measurement |
+| Vision Sensor | Pixy2 Camera (SPI) | Red/green pillar color detection |
+| Battery | 7.4V LiPo 2S | Main power supply for all systems |
+| Chassis | WLtoys 284010 (1:28 RC scale) | Compact, robust, competition-ready platform |
+
+**Physical Specs:**  
+📐 Dimensions: ~17 × 9 × 7 cm — within WRO 30×20×30 cm limit ✅  
+⚖️ Mass: ~0.5 kg (without electronics) — within 1.5 kg limit ✅
