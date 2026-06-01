@@ -296,7 +296,7 @@ Several tests were conducted to ensure reliable performance:
 
 <div align="center">
 
-**redco — Digital Innovations**
+**redcores — Digital Innovations**
 
 *Kuwait · WRO Future Engineers 2026*
 
