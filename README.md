@@ -176,3 +176,51 @@ derivative = smoothed(error − lastError)
 output     = KP × error + KD × derivative
 servoAngle = CENTER_ANGLE + output
 ```
+
+**Anti-zigzag techniques applied:**
+- **Error deadband** (±0.8 cm): ignores sensor noise below threshold
+- **Derivative low-pass filter** (α=0.45): prevents jitter from spike readings
+- **Servo output smoothing** (α=0.55): eliminates mechanical oscillation
+- **Corner spike clamping** (max 75 cm): ignores false corner wall readings
+- **Adaptive speed**: automatically slows down on turns >28° from center
+- **Sensor fallback**: if one ultrasonic fails, mirrors the other side
+
+---
+
+## 👁️ Obstacle Management & Vision System
+
+The Pixy2 camera identifies red and green pillars using color signatures trained under WRO arena lighting:
+
+| Pillar | Signature | Rule | Steering Action |
+|--------|-----------|------|----------------|
+| 🟢 Green | Sig 1 | Pass on LEFT of pillar | Steer LEFT (angle > 90°) |
+| 🔴 Red | Sig 2 | Pass on RIGHT of pillar | Steer RIGHT (angle < 90°) |
+
+**Steering angles by pillar position (X coordinate on camera):**
+
+| Color | X < 120 | X 120–170 | X > 170 |
+|-------|---------|-----------|---------|
+| 🟢 Green | Hard Left (135°) | Med Left (120°) | Soft Left (105°) |
+| 🔴 Red | Soft Right (75°) | Med Right (60°) | Hard Right (45°) |
+
+**Mode switching hysteresis:**
+- Enters `PIXY MODE` after **2 consecutive** valid detections
+- Returns to `PID MODE` after **3 consecutive** misses
+- Minimum hold time **280 ms** — prevents rapid flickering
+- Slew-rate limit **6°/step** — ensures smooth servo transitions
+- Detection filters: minimum area 200 px², X range 20–300 px
+
+---
+
+## 🧱 3D Model
+
+The robot chassis is based on the WLtoys 284010 (1:28 scale RC car), modified with 3D-printed mounts for electronics and sensors.
+
+<div align="center">
+<img width="512" src="https://github.com/user-attachments/assets/41ec272d-5294-4c83-8e19-9ecab00ad179" alt="3D Model"/>
+<br/><sub><i>3D printed design — electronics tray and sensor mounts</i></sub>
+</div>
+
+3D files available in [`Models/`](Models/)
+
+---
