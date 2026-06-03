@@ -235,8 +235,8 @@ The robot chassis is based on the WLtoys 284010 (1:28 scale RC car), modified wi
     <td align="center"><img width="240" src="https://github.com/user-attachments/assets/e3ce21d4-4cd9-439d-9274-82af3605b75f"/><br/><sub><b>front</b></sub></td>
   </tr>
   <tr>
-    <td align="center"><img width="240" src="https://github.com/user-attachments/assets/581d9ba8-7fb7-40f2-ab8f-64d2de9f3165"/><br/><sub><b>Right</b></sub></td>
-    <td align="center"><img width="240" src="https://github.com/user-attachments/assets/2a9d8bb3-ee46-4803-8cc3-46ba6ddcda77"/><br/><sub><b>back</b></sub></td>
+    <td align="center"><img width="240" src="https://github.com/user-attachments/assets/581d9ba8-7fb7-40f2-ab8f-64d2de9f3165"/><br/><sub><b>back</b></sub></td>
+    <td align="center"><img width="240" src="https://github.com/user-attachments/assets/2a9d8bb3-ee46-4803-8cc3-46ba6ddcda77"/><br/><sub><b>right</b></sub></td>
     <td align="center"><img width="240" src="https://github.com/user-attachments/assets/afcc0fe8-2d0e-4aef-aea4-6d611f3f30ef"/><br/><sub><b>left</b></sub></td>
   </tr>
 </table>
