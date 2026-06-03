@@ -247,6 +247,9 @@ The robot chassis is based on the WLtoys 284010 (1:28 scale RC car), modified wi
 ##😎team in action
 
 <div align="center">
+<div align="center">
+  <img src="https://github.com/Drfortresz/AUMER03/blob/main/documents/me%20and%20aladra.jpeg" width="512" alt="Team In Action"/>
+</div>
 
 ---
 
