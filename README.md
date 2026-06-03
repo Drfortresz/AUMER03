@@ -286,7 +286,7 @@ The robot chassis is based on the WLtoys 284010 (1:28 scale RC car), modified wi
 
 ---
 
-## 📽️Video Demonstrations
+## 📽️ Video Demonstrations
 
 | Challenge | Description | File |
 |-----------|-------------|------|
@@ -295,7 +295,7 @@ The robot chassis is based on the WLtoys 284010 (1:28 scale RC car), modified wi
 
 ---
 
-## 👷Team
+## 👷 Team
 
 <div align="center">
 
