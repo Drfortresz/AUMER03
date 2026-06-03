@@ -4,7 +4,7 @@
        alt="Redcore Logo" width="512" height="512" />
 </p>
 
-# ✨redcores/WRO future engineer 2026✨
+# 🐦‍🔥redcores/WRO future engineer 2026🐦‍🔥
 
 
 **Kuwait National Qualifier · May 31, 2026**
@@ -30,6 +30,7 @@
 - [🧱 3D Model](#-3d-model)
 - [📸 Robot Photos](#-robot-photos)
 - [🧪 Testing & Calibration](#-testing--calibration)
+- [😎 team in action](#-team-in-action)
 - [📈 Results & Performance](#-results--performance)
 - [🎬 Video Demonstrations](#-video-demonstrations)
 - [👨‍💻 Team Members](#-team-members)
@@ -42,16 +43,16 @@ The redcore initiative showcases a self-driving vehicle engineered to complete t
 
 At its core, the robot is organized into four interconnected subsystems:
 
-**Motion System**  
+**🌊Motion System**  
 A sturdy chassis powered by a DC motor for propulsion and a servo motor for steering. Real-time sensor feedback ensures precise control through curves and speed changes.
 
-**Energy System**  
+**⚡Energy System**  
 A 7.4V Li-Po battery provides reliable power to both motors and control electronics. The Xmotion board regulates distribution, reducing electrical noise and maintaining consistent performance.
 
-**Detection System**  
+**🕵️Detection System**  
 Three ultrasonic sensors continuously measure distances to walls and obstacles, keeping the robot centered. A PixyCam vision sensor identifies red and green traffic markers to guide directional choices.
 
-**Smart Obstacle Handling**  
+**🧠Smart Obstacle Handling**  
 By fusing ultrasonic data with PixyCam vision, the robot interprets traffic signs, maintains lane balance, avoids collisions, and completes its run by autonomously parking in the designated zone.
 
 Together, these subsystems demonstrate a holistic approach to autonomous mobility, combining dependable sensing, efficient power management, and intelligent control strategies to operate safely in dynamic environments.
@@ -244,7 +245,7 @@ The robot chassis is based on the WLtoys 284010 (1:28 scale RC car), modified wi
 
 ---
 
-## 😎team in action
+## 😎 team in action
 
 <div align="center">
 <div align="center">
@@ -285,7 +286,7 @@ The robot chassis is based on the WLtoys 284010 (1:28 scale RC car), modified wi
 
 ---
 
-## Video Demonstrations
+## 📽️Video Demonstrations
 
 | Challenge | Description | File |
 |-----------|-------------|------|
@@ -294,7 +295,7 @@ The robot chassis is based on the WLtoys 284010 (1:28 scale RC car), modified wi
 
 ---
 
-## Team
+## 👷Team
 
 <div align="center">
 
@@ -314,7 +315,7 @@ The robot chassis is based on the WLtoys 284010 (1:28 scale RC car), modified wi
 
 <div align="center">
 
-**redcores**
+**🐦‍🔥redcores🐦‍🔥**
 
 *Kuwait · WRO Future Engineers 2026*
 
