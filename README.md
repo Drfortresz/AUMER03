@@ -289,6 +289,10 @@ The robot chassis is based on the WLtoys 284010 (1:28 scale RC car), modified wi
 | **Mohammad Omar Mohammad** | Hardware & Building | Mechanical design · Assembly & integration |
 | **Mohamed Amine Ladraa** | Vision & Testing | Camera vision · Calibration & performance checks |
 
+| ✨very professsional coach✨ |
+|---------------------|
+| Mohammad sharsheer |
+
 </div>
 
 ---
