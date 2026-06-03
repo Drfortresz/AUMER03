@@ -275,7 +275,7 @@ The robot chassis is based on the WLtoys 284010 (1:28 scale RC car), modified wi
 | Challenge | Description | File |
 |-----------|-------------|------|
 | Open Challenge | 3-lap autonomous wall-following | [`videos/Open_Challenge.mp4`](https://github.com/Drfortresz/AUMER03/blob/main/Videos/open%20challenge.mp4) |
-| Obstacle Challenge | Full pillar detection + avoidance | [`videos/Obstacle_Challenge.mp4`](videos/) |
+| Obstacle Challenge | Full pillar detection + avoidance | [`videos/Obstacle_Challenge.mp4`](https://github.com/Drfortresz/AUMER03/blob/main/Videos/obstical.mp4) |
 
 ---
 
