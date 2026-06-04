@@ -96,7 +96,7 @@ WRO-Future-Engineers-2026/
 ⚖️ Mass: ~0.5 kg (without electronics) — within 1.5 kg limit ✅
 
 <div align="center">
-<img width="512" src="https://github.com/Drfortresz/AUMER03/blob/main/Vehicle_Photos/WhatsApp%20Image%202026-06-04%20at%2011.25.32%20AM.jpeg" alt="Robot Components"/>
+<img width="512" src="https://github.com/Drfortresz/AUMER03/blob/main/Vehicle_Photos/schematics.png" alt="Robot Components"/>
 <br/><sub><i>Robot components layout</i></sub>
 </div>
 
