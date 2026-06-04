@@ -231,14 +231,14 @@ The robot chassis is based on the WLtoys 284010 (1:28 scale RC car), modified wi
 <div align="center">
 <table>
   <tr>
-    <td align="center"><img width="240" src="https://github.com/Drfortresz/AUMER03/blob/main/Vehicle_Photos/robot%20tilted%20back.png"/><br/><sub><b>top</b></sub></td>
-    <td align="center"><img width="240" src="https://github.com/Drfortresz/AUMER03/blob/main/Vehicle_Photos/robot%20bottom.png"/><br/><sub><b>bottom</b></sub></td>
-    <td align="center"><img width="240" src="https://github.com/Drfortresz/AUMER03/blob/main/Vehicle_Photos/robot%20front.png"/><br/><sub><b>front</b></sub></td>
+    <td align="center"><img width="240" src="https://github.com/Drfortresz/AUMER03/blob/main/Vehicle_Photos/top.jpeg"/><br/><sub><b>top</b></sub></td>
+    <td align="center"><img width="240" src="https://github.com/Drfortresz/AUMER03/blob/main/Vehicle_Photos/bottom.jpeg"/><br/><sub><b>bottom</b></sub></td>
+    <td align="center"><img width="240" src="https://github.com/Drfortresz/AUMER03/blob/main/Vehicle_Photos/front.jpeg"/><br/><sub><b>front</b></sub></td>
   </tr>
   <tr>
-    <td align="center"><img width="240" src="https://github.com/Drfortresz/AUMER03/blob/main/Vehicle_Photos/robot%20back.png"/><br/><sub><b>back</b></sub></td>
-    <td align="center"><img width="240" src="https://github.com/Drfortresz/AUMER03/blob/main/Vehicle_Photos/robot%20right.png"/><br/><sub><b>right</b></sub></td>
-    <td align="center"><img width="240" src="https://github.com/Drfortresz/AUMER03/blob/main/Vehicle_Photos/robot%20left.png"/><br/><sub><b>left</b></sub></td>
+    <td align="center"><img width="240" src="https://github.com/Drfortresz/AUMER03/blob/main/Vehicle_Photos/back.jpeg"/><br/><sub><b>back</b></sub></td>
+    <td align="center"><img width="240" src="https://github.com/Drfortresz/AUMER03/blob/main/Vehicle_Photos/right.jpeg"/><br/><sub><b>right</b></sub></td>
+    <td align="center"><img width="240" src="https://github.com/Drfortresz/AUMER03/blob/main/Vehicle_Photos/left.jpeg"/><br/><sub><b>left</b></sub></td>
   </tr>
 </table>
 </div>
