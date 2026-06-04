@@ -218,7 +218,7 @@ The Pixy2 camera identifies red and green pillars using color signatures trained
 The robot chassis is based on the WLtoys 284010 (1:28 scale RC car), modified with 3D-printed mounts for electronics and sensors.
 
 <div align="center">
-<img width="512" src="https://github.com/user-attachments/assets/41ec272d-5294-4c83-8e19-9ecab00ad179" alt="3D Model"/>
+<img width="512" src="https://github.com/Drfortresz/AUMER03/blob/main/Vehicle_Photos/schematics.png" alt="3D Model"/>
 <br/><sub><i>3D printed design — electronics tray and sensor mounts</i></sub>
 </div>
 
